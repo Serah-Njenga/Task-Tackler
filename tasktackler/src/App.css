@@ -1,10 +1,10 @@
-body {
-	background-color:antiquewhite;
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+ body {
+	background-color:grey;
+	background-size: 450% 450%;
+	animation: gradient 20s ease infinite;
+	/* height: 100vh; */
 }
-
+/*
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -19,23 +19,23 @@ body {
 
 
 .main-text {
-  text-align: center;
+  text-align:start;
 }
 
 .header {
   
-  border-top-style: dotted;
+  border-top-style:dashed;
   border-bottom-style: dotted;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .all-todos-title {
   text-decoration-line: underline;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .all-todos {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   text-align: left;
   padding-left: 35%;
@@ -57,19 +57,19 @@ body {
 }
 
 .red {
-  color: red;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
 
 .orange {
-  color: orange;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
 
 .green {
-  color: green;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
@@ -91,13 +91,13 @@ body {
 .main {
   text-align: center;
   
-  background-color: #fbfcfa;
+  background-color: blueviolet;
   left: 14%;
-  width: 72%;
+  width: 100%;
   height: 100%;
-  position: relative;
+  position:flex;
   border: 3px solid #bad1ab;
-  border-radius: 2px;
+  border-radius: 20px;
   box-shadow: 0px 0px 7px black;
   
 }
@@ -112,6 +112,18 @@ body {
 /* .third-line {
   display: inline-block;
 } */
+
+.main {
+  text-align: justify;
+  background-color:#ECE4B7;
+  left: 14%;
+  width: 100%;
+  height: 100%;
+  position:flex;
+  border: 3px solid #ECE4B7;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px black;
+}
 
 .organize {
   display: flex;
@@ -135,13 +147,14 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   border-radius: 3px;
-  border: 4px ridge #bad1ab;
+  border: 4px ridge black;
   margin-bottom: 1px;
   font-weight: bold;
+  color: white;
   font-size: 25px;
   text-align: center;
   /* background-color: #a1eb73; */
-  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background:  #d4ba95 60%, #e9cfac 60%);
   
 }
 
@@ -218,9 +231,6 @@ body {
   border-radius: 2px;
 }
 
-
-
-
 .searchbar input {
   width: 50%;
   background-color: whitesmoke;
@@ -237,14 +247,14 @@ body {
   width: 80%;
 }
 
-.todo {
-  border: 3px dashed rgba(0, 0, 0, 0.089);
-  background-color: #cccccc;
+.todo{
   border-radius: 4px;
   margin-top: 5px;
   margin-bottom: 10px
- 
+}
 
+.todo{
+  text-align: center;
 }
 
 #high {
@@ -299,8 +309,6 @@ body {
   
 }
 
-
-
 .left {
   text-align: left;
 }
@@ -337,4 +345,4 @@ body {
 
 #edit {
   margin-bottom: 5px;
-}
+} 

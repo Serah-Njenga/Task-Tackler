@@ -7,9 +7,9 @@ function Header({tasks, onTaskDelete}) {
 
 
     return (
-        <div>
+        <div className='actual_header'>
             <h1 className='header'>Task List</h1>
-            <div>
+            <div className='todo-titles'>
                 <h2 className='all-todos-title'>All Tasks</h2>
                 {renderTasksListAll}
                 <br/>
